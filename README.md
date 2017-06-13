@@ -1,5 +1,9 @@
 ## Common way to get access to wrapped component through HoC
 
+```
+npm install react-hoc-with-ref
+```
+
 App.js
 ```javascript
 import React, { Component, createElement } from 'react';
