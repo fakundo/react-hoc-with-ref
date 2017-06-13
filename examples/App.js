@@ -1,5 +1,5 @@
 import React, { Component, createElement } from 'react';
-import createWithRef from '../lib';
+import createWithRef from '../src';
 
 const decorate = WrappedComponent =>
   class DecoratedApp extends createWithRef(WrappedComponent) {
